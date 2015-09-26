@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>作品列表</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/myworks.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <link href="css/video-js.css" rel="stylesheet" type="text/css">
+    <script src="js/video.js"></script>
+    <script type="text/javascript" src="js/myworks.js"></script>
+    <script>
+    videojs.options.flash.swf = "video-js.swf";
+    </script>
+  </head>
+  <body>
+    <div class="con wrap" onselectstart="return false">
+	    <h1>作品列表</h1>
+	    <a href="http://wuyangzengmeng.com" target="_self" class="back">返回首页</a>
+	    <!-- 第一部分，前端 -->
+	    <h2>作品</h2>
+		<div class="list">
+	        <div class="item">
+	        	<h3 title="PC端切片（3小时完成效果）">PC端切片（3小时完成效果）</h3>
+	        	<div class="item-intr">
+	        		<a href="order/new.html" target="_self">新手指引</a>
+	        		<a href="order/order.html" target="_self">投资预约</a>
+	        	</div>
+	        </div>
+	        <div class="item" onclick="window.open('webapp/chuangye.html','_self')">
+	        	<h3>移动端切片</h3>
+	        	<div class="item-intr">
+	        		<img src="img/webapp.png" />
+	        	</div>
+	        </div>
+	        <div class="item" onclick="window.open('bootstrap/bootstrap.html','_self')">
+	        	<h3 title="半成品">bootstrap运用</h3>
+	        	<div class="item-intr">
+	        		<img src="img/bootstrap.png" />
+	        	</div>
+	        </div>
+	        <div class="item" onclick="window.open('borncn/index.html','_self')">
+	        	<h3>仿站：博恩</h3>
+	        	<div class="item-intr">
+	        		<img src="img/borncn.png" />
+	        	</div>
+	        </div>
+	        <div class="item" style="margin-right:0px;" onclick="window.open('test.html','_self')" >
+	        	<h3>演示、测试用</h3>
+	        	<div class="item-intr">
+	        		<p>演示、测试用</p>
+	        	</div>
+	        </div>
+	    </div>
+	    <!-- 第二部分，视频 -->
+	    <h2>视频</h2>
+		<div class="list" id="video_list">
+	        <div class="item" index="1" videoUrl="http://player.youku.com/player.php/sid/XMTI4NjA0NjI2OA==/v.swf">
+	        	<h3>扁平化教学视频</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp01.png"/>
+	        	</div>
+	        </div>
+	        <div class="item" index="2" videoUrl="weixin.mp4">
+	        	<h3>扁平化教学视频2</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp10.jpg"/>
+	        	</div>
+	        </div>
+	        <div class="item" index="3" videoUrl="http://player.youku.com/player.php/sid/XMTI4OTk0NjcyMA==/v.swf">
+	        	<h3 title="校园采访--喝酒脸红的人，很能喝，你信吗？">校园采访--喝酒脸红的人，很能喝，你信吗？</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp02.png"/>
+	        	</div>
+	        </div>
+	        <div class="item" index="4" videoUrl="http://player.youku.com/player.php/sid/XMTI4OTk0ODUzMg==/v.swf">
+	        	<h3>半屏+全身实景教学录课</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp03.png"/>
+	        	</div>
+	        </div>
+	        <div class="item" index="5" videoUrl="http://player.youku.com/player.php/sid/XMTI4OTk1Nzg2NA==/v.swf" style="margin-right:0px;">
+	        	<h3>契合场景和音乐的片头</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp04.png"/>
+	        	</div>
+	        </div>
+	        <div class="item" index="6" videoUrl="http://player.youku.com/player.php/sid/XMTI4OTk2Mzg0NA==/v.swf">
+	        	<h3>课堂讨论</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp05.png"/>
+	        	</div>
+	        </div>
+	        <div class="item" index="7" videoUrl="http://player.youku.com/player.php/sid/XMTI4OTk3MzQ1Mg==/v.swf">
+	        	<h3>任务实践1</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp06.png"/>
+	        	</div>
+	        </div>
+	        <div class="item" index="8" videoUrl="http://player.youku.com/player.php/sid/XMTI4OTk3NjY4OA==/v.swf">
+	        	<h3>任务实践2</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp07.png"/>
+	        	</div>
+	        </div>
+	        <div class="item" index="9" videoUrl="http://player.youku.com/player.php/sid/XMTI4OTk4MTA4MA==/v.swf">
+	        	<h3>任务实践3</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp08.png"/>
+	        	</div>
+	        </div>
+	        <div class="item" index="10" videoUrl="http://player.youku.com/player.php/sid/XMTI4OTk4MjY2MA==/v.swf" style="margin-right:0px;">
+	        	<h3>任务实践4</h3>
+	        	<div class="item-intr">
+	        		<img src="img/sp09.png"/>
+	        	</div>
+	        </div>
+	    </div>
+
+	    <h2>效果收集</h2>
+		<div class="list">
+	        <div class="item" onclick="window.open('collect/css3zhezhixiaoguo.html','_self')">
+	        	<h3>css3折纸效果</h3>
+	        	<div class="item-intr">
+	        		<img src="img/xg01.jpg" />
+	        	</div>
+	        </div>
+	        <div class="item" onclick="window.open('collect/rem.html','_self')">
+	        	<h3>rem在移动端的用法</h3>
+	        	<div class="item-intr">
+	        		<img src="img/xg02.jpg" />
+	        	</div>
+	        </div>
+	        <div class="item" onclick="window.open('collect/tplb.html','_self')">
+	        	<h3>图片轮播</h3>
+	        	<div class="item-intr">
+	        		<img src="img/tplb.png" />
+	        	</div>
+	        </div>
+	        <div class="item" onclick="window.open('collect/around.html','_self')">
+	        	<h3>鼠标经过动画</h3>
+	        	<div class="item-intr">
+	        		<img src="img/around.png" />
+	        	</div>
+	        </div>
+    	</div>
+    </div>
+    <!-- 用来放视频的层 -->	
+    <div class="trans_con">
+    	<div class="wrap">
+    		<div class="myvideo"></div>
+    	</div>
+    </div>
+  </body>
+</html>

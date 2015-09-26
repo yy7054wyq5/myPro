@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap</title>
+    <!-- Bootstrap -->
+    <link href="css/normalize.css" rel="stylesheet"><!-- 重置样式 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mycss01.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=qYEBZwdKQxosmqZq4Cwttvqw"></script> -->
+  </head>
+  <body>
+  <!-- 头部 -->
+  <header>
+      <div class="head_tools">
+          <a class="sina" href="http://weibo.com/wuyangzengmeng" target="_blank"></a>
+          <a class="chat" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm"></a>
+          <i class="phone">18580035120</i>
+          <a class="mail" href="mailto:yy7054wyq5@163.com"><span>yy7054wyq5@163.com</span></a> 
+      </div>
+  </header>
+  <!-- 轮播图开始 -->
+  <div id="carousel-example-generic" class="carousel slide">
+  <!-- 菜单 -->
+      <nav class="navbar navbar-default">
+        <div class="wrap">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">正乾金融</a>
+          </div>
+          <!-- 主导航 -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">关于正乾</a></li>
+              <li><a href="#">服务项目</a></li>
+              <li><a href="#">正乾动态</a></li>
+              <li><a href="#">实时资讯</a></li>
+              <li><a href="#">正乾期刊</a></li>
+              <li><a href="#">招贤纳士</a></li>
+              <li><a href="#">联系我们</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+      </nav>
+  	  <!-- 轮播按钮 -->
+  	  <ol class="carousel-indicators">
+  	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+  	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  	  </ol>
+      <!-- 轮播图片里面的字 -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/banner01.png" alt="" id="img01">
+          <div class="carousel-caption">
+                <div class="wrap">
+                  <div class="slogan01">
+                    <p>正大乾</p>
+                    <p>您身边的金融<span>专家</span></p>
+                  </div>
+                  <div class="slogan02">
+                    <p>方便/快捷/可靠</p>
+                    <p>致力用户体验更加简单方便，</p>
+                    <p>帮助用户解决急迫问题。</p>
+                  </div>
+                  <a class="help_button">申请帮助</a>
+                </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/banner02.png" alt="" id="img02">
+          <div class="carousel-caption">
+            <div class="wrap">
+                <div class="slogan01">
+                  <p>正小乾</p>
+                  <p>您身边的金融<span>专家</span></p>
+                </div>
+                <div class="slogan02">
+                  <p>方便/快捷/可靠</p>
+                  <p>致力用户体验更加简单方便，</p>
+                  <p>帮助用户解决急迫问题。</p>
+                </div>
+                <a class="help_button">申请帮助</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/banner03.png" alt="..." id="img03">
+          <div class="carousel-caption">
+              <div class="wrap">
+                <div class="slogan01">
+                  <p>正乾</p>
+                  <p>您身边的金融<span>专家</span></p>
+                </div>
+                <div class="slogan02">
+                  <p>方便/快捷/可靠</p>
+                  <p>致力用户体验更加简单方便，</p>
+                  <p>帮助用户解决急迫问题。</p>
+                </div>
+                <a class="help_button">申请帮助</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- 轮播控制器 -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  </div> <!-- 轮播图结束 -->
+  <!-- 第一栏内容：六大优势 -->
+  <div class="full">
+	<div class="wrap">
+	  <div class="container-fluid con">
+	    <h2>正乾金融&nbsp;六大优势</h2>
+	    <div class="line"><p class="bgf5f4f9">OUR ADVANTAGES</p></div>
+	  	<div class="row con1">
+	  	  <div class="col-md-4 col-sm-4 col-xs-4 item item01">
+			<h3>本土优势</h3>
+			<p>LOANS MORE EASILY</p>
+			<img src="img/adv-line.png"/>
+			<p class="item-lastcon">无需到访门店，在线三步轻松申请， 快捷方便轻松省心！</p>
+	  	  </div>
+	  	  <div class="col-md-4 col-sm-4 col-xs-4 item item02 active">
+			<h3>本土优势</h3>
+			<p>LOANS MORE EASILY</p>
+			<img src="img/adv-line-active.png"/>
+			<p class="item-lastcon">无需到访门店，在线三步轻松申请， 快捷方便轻松省心！</p>
+	  	  </div>
+	  	  <div class="col-md-4 col-sm-4 col-xs-4 item item03">
+			<h3>本土优势</h3>
+			<p>LOANS MORE EASILY</p>
+			<img src="img/adv-line.png"/>
+			<p class="item-lastcon">无需到访门店，在线三步轻松申请， 快捷方便轻松省心！</p>
+	  	  </div>
+	  	  <div class="col-md-4 col-sm-4 col-xs-4 item item04">
+			<h3>本土优势</h3>
+			<p>LOANS MORE EASILY</p>
+			<img src="img/adv-line.png"/>
+			<p class="item-lastcon">无需到访门店，在线三步轻松申请， 快捷方便轻松省心！</p>
+	  	  </div>
+	  	  <div class="col-md-4 col-sm-4 col-xs-4 item item05">
+			<h3>本土优势</h3>
+			<p>LOANS MORE EASILY</p>
+			<img src="img/adv-line.png"/>
+			<p class="item-lastcon">无需到访门店，在线三步轻松申请， 快捷方便轻松省心！</p>
+	  	  </div>
+	  	  <div class="col-md-4 col-sm-4 col-xs-4 item item06">
+			<h3>本土优势</h3>
+			<p>LOANS MORE EASILY</p>
+			<img src="img/adv-line.png"/>
+			<p class="item-lastcon">无需到访门店，在线三步轻松申请， 快捷方便轻松省心！</p>
+	  	  </div>
+	  	</div>
+	  </div>
+	</div>
+  </div>
+  <!-- 第二栏内容：服务项目 -->
+    <div class="full bgfff">
+    <div class="wrap">
+      <div class="container-fluid con">
+        <h2>正乾金融&nbsp;服务项目</h2>
+        <div class="line"><p class="bgfff">LOAN PROGRAM</p></div>
+          <ul class="con2">
+            <li class="loan">人力资源服务</li>
+            <li class="loan active">呼叫中心外包</li>
+            <li class="loan">贷款管理服务</li>
+            <li class="loan">凭证管理服务</li>
+            <li class="loan">金融票据传送服务</li>
+          </ul>
+      </div>
+    </div>
+    </div>
+    <!-- 第三栏内容：关于正乾 -->
+    <div class="full">
+    <div class="wrap">
+      <div class="container-fluid con">
+        <h2>关于正乾金融</h2>
+        <div class="line"><p class="bgf5f4f9">ABOUT US</p></div>
+          <div class="con3">
+            <h3 class="cl9c221f">可靠的本地金融企业让您无后顾之忧</h3>
+            <p class="cl999999">河南正乾金融有限公司总部位于河南郑州，注册资金1300万。正乾金融（www.zhenqianjinrong.com）是河南正乾金融有限公司倾力打造的互联网金融平台，在线实现资金需求与供给的完美交互。合盘贷为小微企业、三农、个体工商户提供专业的融资服务，为普通大众阶层提供全方位的理财服务。</p>
+            <p class="cl999999">公司规模500人，其中风控团队100人，还有一支50余人的IT技术团队。公司建立了一套成熟的业务操作流程和完善的风险控制体系，为业务的开展提供根本的制度保障；为各系统的运作提供强有力的技术支持。公司高级管理层涵盖了金融、计算机等行业背景，均具有10年以上的专业经验，且具备出众的决策和管理能力。<a class="cl9c221f">[了解更多]</a></p>
+            <div class="row">
+              <img src="img/con3-1.png" class="col-md-4 col-sm-4 col-xs-4"/>
+              <img src="img/con3-2.png" class="col-md-4 col-sm-4 col-xs-4"/>
+              <img src="img/con3-3.png" class="col-md-4 col-sm-4 col-xs-4"/>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+    <!-- 第四栏内容：常见问题全解答 -->
+    <div class="full bgfff">
+    <div class="wrap">
+      <div class="container-fluid con">
+        <h2>常见问题全解答</h2>
+        <div class="line con4-patch"><p class="bgfff">Frequently Asked Questions</p></div>
+          <div class="con4 row">
+            <ul class="con4-left col-md-6 col-sm-6 col-xs-6">
+              <li>
+                <p class="con4-question on">01.月收入只有4000多可不可以申请汽车按揭贷款？</p><p class="con4-answer" style="display:block;">答：收入只有4000多可以申请汽车按揭贷款的，只是说收入的额度会取决贷款的额度是多少的。</p>
+              </li>
+              <li>
+                <p class="con4-question">02.银行个人小额消费贷款能申请几年？</p><p class="con4-answer">答：X年。</p>
+              </li>
+              <li>
+                <p class="con4-question">03.打架了肯德基阿克江读卡颗粒剂？</p><p class="con4-answer">答：哒客户端将。</p>
+              </li>
+              <li>
+                <p class="con4-question">04.我一uUI噢YuiYui与她一个打打打和可交换机可好看？</p><p class="con4-answer">答：看iiU盾骄傲就大结局哦。</p>
+              </li>
+            </ul>
+            <ul class="con4-right col-md-6 col-sm-6 col-xs-6">
+              <li>
+                <p class="con4-question">05.月收入只有4000多可不可以申请汽车按揭贷款？</p><p class="con4-answer">答：收入只有4000多可以申请汽车按揭贷款的，只是说收入的额度会取决贷款的额度是多少的。</p>
+              </li>
+              <li>
+                <p class="con4-question">06.银行个人小额消费贷款能申请几年？</p><p class="con4-answer">答：X年。</p>
+              </li>
+              <li>
+                <p class="con4-question">07.打架了肯德基阿克江读卡颗粒剂？</p><p class="con4-answer">答：哒客户端将。</p>
+              </li>
+              <li>
+                <p class="con4-question">08.我一uUI噢YuiYui与她一个打打打和可交换机可好看？</p><p class="con4-answer">答：看iiU盾骄傲就大结局哦。</p>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    </div>
+      <!-- 第五栏内容：联系正乾 -->
+    <div class="full">
+    <div class="wrap">
+      <div class="container-fluid con">
+        <h2>咨询电话&nbsp;联系地址</h2>
+        <div class="line"><p class="bgf5f4f9">CONTACT US</p></div>
+          <div class="con5">
+            <h3 class="cl9c221f">咨询电话：400-608-8080</h3>
+            <h3 class="cl9c221f">郑州市金水区花园路农业路招银大厦18楼</h3>
+            <div class="row mymap" id="allmap">
+              
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+  <!-- 浮动层 -->
+   <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+     <div class="modal-dialog modal-sm">
+       <div class="modal-content">
+         <img src="img/2weima.jpg"/>
+       </div>
+     </div>
+   </div>
+   <!-- 底部菜单 -->
+  <footer class="footer">
+       <ul>
+         <li><a href="#">首页</a></li>
+         <li><a href="#">关于正乾</a></li>
+         <li><a href="#">服务项目</a></li>
+         <li><a href="#">正乾动态</a></li>
+         <li><a href="#">实时资讯</a></li>
+         <li><a href="#">正乾期刊</a></li>
+         <li><a href="#">招贤纳士</a></li>
+         <li><a href="#">联系我们</a></li>
+         <li>Copyright¤2014&nbsp;&nbsp;&nbsp;版权所有·正乾金融&nbsp;&nbsp;&nbsp;网站设计：晨诺翼合&nbsp;&nbsp;&nbsp;前端：老菜鸟</li>
+       </ul>
+  </footer>
+   <div class="connect"><!-- 右下角4个链接 -->
+      <a href="#">联系我们</a>
+      <a href="#">在线客服</a>
+      <a href="#">关注我们</a>
+      <a href="#">返回顶部</a>
+   </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+<script type="text/javascript" src="js/myjs.js"></script>
+<script type="text/javascript">
+  // 百度地图API功能
+  var map = new BMap.Map("allmap");          
+  map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);
+  var local = new BMap.LocalSearch(map, {
+    renderOptions:{map: map}
+  });
+  //关键字检索
+  local.search("郑州市金水区花园路农业路招银大厦");
+  //添加比例尺控件
+  var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+  var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+  var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
+  //*缩放控件type有四种类型:BMAP_NAVIGATION_CONTROL_SMALL：仅包含平移和缩放按钮；BMAP_NAVIGATION_CONTROL_PAN:仅包含平移按钮；BMAP_NAVIGATION_CONTR
+  map.addControl(top_left_control);        
+  map.addControl(top_left_navigation);     
+  map.addControl(top_right_navigation);  
+  //允许放大缩小
+  map.enableScrollWheelZoom(true); 
+
+
+  $('#carousel-example-generic').on('slide.bs.carousel', function () {
+  alert('111');
+  })
+
+  $('.carousel').on('slid.bs.carousel', function () {
+    alert($('#img01').style.height);
+  })
+</script>

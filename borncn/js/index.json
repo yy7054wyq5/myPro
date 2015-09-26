@@ -1,0 +1,22 @@
+//首页背景图片路径
+var sectionBgs = {
+    "sectionImg":[
+        {
+            "secimg": "url(img/index/index_bg.jpg) no-repeat center top",
+            "secimgChange": "url(img/index/index_bg.jpg) no-repeat center -50px",
+            "secimgLoading": "url(img/index/loadingcirle.gif) no-repeat center"
+        },
+        {
+            "secimg": "url(img/index/banner_bg.jpg) no-repeat center top"
+        },
+        {
+            "secimg": "url(img/index/history_bg.jpg) no-repeat center bottom"
+        },
+        {
+            "secimg": "url(img/index/sec3cloud.png) no-repeat center top"
+        },
+        {
+            "secimg": "url(img/index/news_bg.jpg) no-repeat center top"
+        }
+    ]
+}

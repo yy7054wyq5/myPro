@@ -1,0 +1,158 @@
+h1{
+	text-align: center;
+	margin: 20px;
+}
+a{
+	color: #000;
+	cursor: pointer;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.wrap{/*通用层用来统一宽度*/
+	width: 863px;
+	height: 100%;
+	overflow: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.back{
+	position: absolute;
+	right: 10px;
+	font-size: 12px;
+	top: 45px;
+}
+.con{
+	height: auto;
+	margin: 0 auto;
+	moz-user-select: -moz-none; 
+	-moz-user-select: none; 
+	-o-user-select:none; 
+	-khtml-user-select:none; /* you could also put this in a class */ 
+	-webkit-user-select:none;/* and add the CSS class here instead */ 
+	-ms-user-select:none; 
+	user-select:none;/**禁止选中文字*/
+}
+.con h2{
+	width: 100%;
+	border-bottom: 3px solid #ccc;
+	padding-bottom: 10px;
+	color: #000;
+	font-size: 20px;
+	margin-top: 10px;
+	text-shadow: 2px 3px 3px rgba(0,0,0,0.5);
+}
+.con .list{
+	margin-top: 50%; 
+	height: auto;
+	overflow: auto;
+	clear: both;
+	margin: 0 auto;
+	padding-bottom: 10px; 
+	padding-top: 5px; 
+}
+.con .list .item{
+	width: 156px;
+	height: 130px;
+	float: left;
+	margin-right: 20px; 
+	border-radius: 5px;
+	background: #F2F2F2;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.con .list .item:hover{
+	-moz-box-shadow:0px 3px 5px rgba(242, 170, 176, 1); 
+	-webkit-box-shadow:0px 3px 5px rgba(242, 170, 176, 1); 
+	box-shadow:0px 3px 5px rgba(242, 170, 176, 1);
+}
+.con .list .item h3{
+	font-size: 12px;
+	width: 146px;
+	height: 14px;
+	overflow: hidden;
+	text-align: left;
+	padding-left: 10px; 
+	border-top: 10px solid #F2F2F2;/*代替margin-top: 10px;*/
+	border-radius: 5px;
+	text-overflow: string;
+}
+.con .list .item .item-intr{
+	width: 140px;
+	height: 100px;
+	margin-left: 8px;
+	margin-top: 10px; 
+}
+.con .list .item .item-intr img{
+	width: 100%;
+}
+.con .list .item .item-intr a{
+	width: 50px;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 auto;
+	height: 4px;
+	margin-top: 15px;
+	padding-top: 10px; 
+}
+.trans_con{
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: -1px;
+}
+.trans_con .myvideo{
+	position: absolute;
+	z-index: 999;
+	width: 628px;
+	height: 424px;
+	background: #FFF;
+	left: 100px;
+	top: 28%;
+	color: #FFF;
+	background: #000;
+	border: 3px solid #000;
+}
+.trans_con .myvideo p{
+	display: block;
+	height: 20px;
+	float: left;
+	width: 560px;
+	line-height: 30px;
+	padding-left: 20px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.trans_con .myvideo span{
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	font-size: 30px;
+	margin-left: 18px;
+	text-align: center;
+	cursor: pointer;
+	background: #FFF;
+	color: #000;
+	font-weight: 900;
+	transition:All 0.5s ease-in-out;
+	-webkit-transition:All 0.5s ease-in-out;
+	-moz-transition:All 0.5s ease-in-out;
+	-o-transition:All 0.5s ease-in-out;
+}
+.trans_con .myvideo span:hover{
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+}

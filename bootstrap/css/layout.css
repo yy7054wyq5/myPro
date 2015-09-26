@@ -1,0 +1,295 @@
+/* 平板电脑布局: 481px 至 768px。样式继承自: 移动设备布局。 */
+@media only screen and (min-width: 481px) {
+	html{
+		font-size: 24px !important;
+	}
+ 	.head_tools{
+ 		margin: 0 auto;
+ 		height: 30px;
+ 		width: 80%;
+ 		padding-left: 30px;
+ 	}
+ 	.head_tools .mail{
+ 		width: 185px;
+ 		margin-right: 10px;
+ 		padding-left: 20px;
+ 		line-height: 29px;
+ 	}
+ 	.head_tools .mail span{
+ 		display: inline;
+ 		margin-left: 5px;
+ 	}
+ 	.head_tools .phone{
+ 		margin-right: 20px;
+ 	}
+
+ 	.carousel-caption .slogan01{
+ 		top: -65px;
+ 		font-size: 1rem;
+ 	}
+ 	.carousel-caption .slogan01 p{
+ 		line-height:1.2rem;
+ 	}
+ 	.carousel-caption .slogan02{
+ 		display: block;
+ 		top: 20px;
+ 	}
+ 	.carousel-caption .help_button{
+ 		top:3.5rem;
+ 		width:80px; 
+ 		height:35px;
+ 		padding-top: 7px;
+ 	}
+ 	.con .line p{
+ 		left: 40%;
+ 	}
+ 	.con1{
+ 		margin-top: 60px;
+ 	}
+	.con1 div{
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	.con .loan{
+	 	padding-top: 30px;
+	 	padding-left: 5px;
+	 	padding-right: 5px;
+	 	font-size: 14px;
+	 	letter-spacing: 2px;
+	 	border-width: 3px;
+	}
+	.con5 .mymap{
+		width: 94%;
+		height: 200px;
+		margin: 0 auto;
+	}
+ }
+/* 桌面电脑布局: 769px 至最高 1000px。样式继承自: 移动设备布局和平板电脑布局。 */
+@media only screen and (min-width: 769px) {
+ 	.head_tools{
+ 		margin:0 auto;
+ 		height:30px;
+ 		width: 770px;
+ 		padding-left: 30px;
+ 	}
+ 	.head_tools .mail{
+ 		background:url(../img/mail.png) no-repeat left 7px;
+ 	}
+ 	.head_tools .mail span{
+ 		display: inline;
+ 	}
+	.navbar{
+		left: 0rem;
+		top: 0.5rem;
+	}
+	.navbar-default{
+		background-color: transparent; 
+		border: 0px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		font-weight: 900;
+		color: #666666;
+		padding: 10px;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		color: #9C221F;
+		font-weight: 900;
+		border-bottom:2px solid #9C221F;
+	}
+	.navbar-brand{
+		width: 120px;
+		height: 10px;
+	}
+	.navbar-brand img {
+		width: 300px;
+		position: absolute;
+		left: -4rem;
+		top: 0px;
+	}
+	.carousel-caption{
+		left:15%;
+	}
+ 	.carousel-caption .slogan01{
+ 		top: -35px;
+ 		font-size: 1rem;
+ 	}
+ 	.carousel-caption .slogan01 p{
+ 		line-height:1rem;
+ 	}
+ 	.carousel-caption .slogan02{
+ 		display: block;
+ 		top: 1.7rem;
+ 	}
+ 	.carousel-caption .slogan02 p{
+ 		line-height: 0.5rem;
+ 	}
+ 	.carousel-caption .help_button{
+ 		top: 4.5rem;
+ 		width: 80px; 
+ 		height: 35px;
+ 		padding-top: 7px;
+ 	}
+ 	.con .line p{
+ 		left: 43%;
+ 	}
+ 	.con .con4-patch p{
+ 		left: 37%;
+ 	}
+	.con1 div{
+		width: 45%;
+		margin-left: 3%;
+	}
+	.con .loan{
+		padding-top: 35px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-size: 20px;
+		letter-spacing: 2px;
+		border-width: 4px;
+	}
+	.con5 .mymap{
+		width: 94%;
+		height: 200px;
+		margin: 0 auto;
+	}
+ }
+
+ @media only screen and (min-width: 1000px){/*针对广告区域以及导航超过1000px的页面宽度*/
+ 	.head_tools{
+ 		margin:0 auto;
+ 		height:30px;
+ 		width: 970px;
+ 		padding-left: 30px;
+ 	}
+ 	.navbar .wrap{
+		position: relative;
+	}
+	.navbar-nav{
+		float: right;
+	}
+	.navbar-brand img {
+		width: 300px;
+		position: absolute;
+		left: 60px;
+		top: 0px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		padding: 10px 10px;
+	}
+	.wrap{
+		width: 1000px;
+		margin:0 auto;
+	}
+	.carousel-caption .wrap{
+		position: relative;
+	}
+	.carousel-indicators{
+		left: 70%;
+	}
+	.carousel-caption{
+		left:15%;
+	}
+ 	.carousel-caption .slogan01{
+ 		top: -35px;
+ 		font-size: 36px;
+ 	}
+ 	.carousel-caption .slogan01 p{
+ 		line-height: 36px;
+ 	}
+ 	.carousel-caption .slogan02{
+ 		display: block;
+ 		top: 70px;
+ 	}
+ 	.carousel-caption .slogan02 p{
+ 		line-height: 16px;
+ 		font-size: 16px;
+ 	}
+ 	.carousel-caption .help_button{
+ 		top: 160px;
+ 		width: 120px; 
+ 		height: 45px;
+ 		font-size: 22px;
+ 		padding-top: 7px;
+ 	}
+	.con1{
+		padding-bottom: 30px;
+	}
+	.con h2{
+		margin: 20px;
+	}
+	.con .line{
+		margin-bottom: 50px;
+	}
+	.con .line p{
+		width: 150px;
+		top: 0px;
+		left: 42%;
+		padding-bottom: 10px;
+		margin-bottom: 30px;
+	}
+	.con .con4-patch p{
+		width: 200px;
+		left: 40%;
+	}
+	.con1 div{
+	 	width: 320px;
+	 	margin-bottom: 10px;
+	 	margin-left: 10px;
+	 	padding-top: 0px;
+	 }
+	.con .loan{
+		padding-top: 50px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 20px;
+		letter-spacing: 2px;
+		border-width: 5px;
+	}
+	.con5 .mymap{
+		width: 940px;
+		height: 460px;
+		margin: 0 auto;
+	}
+ }
+
+@media only screen and (min-width: 1800px){/*针对广告区域以及导航超过1800px的页面宽度*/
+	html{
+		font-size: 45px !important;
+	}
+	.navbar-brand img {
+		width: 380px;
+		position: absolute;
+		left: -50px;
+		top: 0px;
+	}
+	.navbar-default .navbar-nav{
+		margin-top: 20px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		padding: 10px 12px;
+	}
+	.carousel-caption .slogan01{
+		top: -2.2rem;
+		font-size: 1.2rem;
+		width: 500px;
+	}
+	.carousel-caption .slogan01 p{
+		line-height: 1.5rem;
+	}
+	.carousel-caption .slogan02{
+		width: 400px;
+		display: block;
+		top: 1.8rem;
+		font-size: 0.5rem;
+	}
+	.carousel-caption .slogan02 p{
+		line-height: 0.8rem;
+	}
+	.carousel-caption .help_button{
+		top:5.6rem;
+		width: 3.5rem; 
+		height: 1.2rem;
+		padding-top: 10px;
+		font-size: 0.5rem;
+	}
+}

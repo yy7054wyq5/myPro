@@ -1,0 +1,99 @@
+*{ 
+	margin: 0; 
+	padding: 0; 
+	text-decoration: none;
+}
+body{
+	background: #CCC;
+}
+.content{
+	width: 600px;
+	height: 364px;
+	border: 0px solid #000;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50px; 
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #000;
+	moz-user-select: -moz-none; 
+	-moz-user-select: none; 
+	-o-user-select: none; 
+	-khtml-user-select: none; /* you could also put this in a class */ 
+	-webkit-user-select: none;/* and add the CSS class here instead */ 
+	-ms-user-select: none; 
+	user-select: none;/**½ûÖ¹Ñ¡ÖÐÎÄ×Ö*/ 
+}
+.img_box{
+	width: 3000px;
+	height: 364px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	clear: both;
+	z-index:1;
+}
+.img_box img{
+	width: 600px;
+	height: 364px;
+	float: left;
+	display: block;
+}
+.content a{
+	color: #FFF;
+	text-decoration: none;
+	position: absolute;
+	font-size: 40px;
+	display: none;
+	width: 45px;
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	background-color: rgba(0,0,0,0.3);
+	top: 165px;
+	cursor: pointer;
+	z-index:999;
+}
+.content:hover .left_btn,.content:hover .right_btn{
+	display: block;/*Êó±ê¾­.contentÊ±ÏÔÊ¾°´Å¥*/
+}
+.content .left_btn{
+	left: 30px;
+}
+.content .right_btn{
+	left: 520px;
+}
+.content .left_btn:hover,.content .right_btn:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+.content .img_dot{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	left: 260px;
+	bottom: 20px;
+	z-index: 999;
+}
+.content .img_dot span{
+	color: #FFF;
+	width: 12px;
+	height: 12px;
+	margin: 3px;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 50%;
+	cursor: pointer;
+	border: 1px solid #FFF;
+}
+.content .img_dot span:hover,.content .img_dot .on{
+	background-color: #99FF00; 
+}
+.fixed_div{
+	width: 300px;
+	height: 300px;
+	background: #000;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	color: #FFF;
+}
